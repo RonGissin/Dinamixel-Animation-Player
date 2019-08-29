@@ -12,7 +12,8 @@ GOAL_ACC = 73
 TORQUE_E = 24
 ENGINE_DICT = {"base": 1, "dome": 2}
 packetHandler = PacketHandler(1.0)
-portHandler = PortHandler('/dev/ttyACM0')
+# portHandler = PortHandler('/dev/ttyACM0')
+portHandler = PortHandler('COM7')
 
 
 def init():
